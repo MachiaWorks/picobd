@@ -12,6 +12,38 @@ https://machiaworx.net/?p=1359
 If you place an order or build a keyboard using these sets of files, please use them at your own risk.
 Even if damage occurs during construction, the author will not take any responsibility. 
 
+# build 
+
+## manufacturing PCB/Plates
+
+use "pcb.zip","plate.zip",and "bottom.zip" in "/gerber".
+
+I usually order from JLCPCB in manufacturing.
+
+## required parts
+
+* Raspberry Pi Pico
+* Keyswitch * 39
+* Keycap * 39
+* M2 8mm Screw * 10
+* M2 3mm Screw * 10
+* M2 3mm spacer * 10
+* M2 5mm spacer * 10
+* gom ashi
+* USB micro cable
+
+## using firmware(under construction.)
+
+PRK firmware
+
+https://github.com/picoruby/prk_firmware
+
+KMK firmware
+
+under construction...
+
+# design
+
 ##  using KiCAD library(thanks)
 
 KBD - for building keyboard libraries
@@ -26,18 +58,4 @@ KiCad-RP-Pico
 
 https://github.com/ncarandini/KiCad-RP-Pico
 
-## using firmware(under construction.)
 
-PRK firmware
-
-https://github.com/picoruby/prk_firmware
-
-KMK firmware
-
-under construction...
-
-## manufacturing PCB/Plates
-
-use "pcb.zip","plate.zip",and "bottom.zip" in "/gerber".
-
-I usually use JLCPCB in manufacturing.
