@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name "kbd")(type "KiCad")(uri "E:/keyboard_data/library/kbd-master/kicad-footprints/kbd.pretty")(options "")(descr ""))
+  (lib (name "footprint")(type "KiCad")(uri "E:/keyboard_data/library/su120-keyboard-master/pcb/footprint.pretty")(options "")(descr ""))
+  (lib (name "MCU_RaspberryPi_and_Boards")(type "KiCad")(uri "E:/keyboard_data/library/KiCad-RP-Pico-main/RP-Pico Libraries/MCU_RaspberryPi_and_Boards.pretty")(options "")(descr ""))
+)
