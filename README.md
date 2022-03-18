@@ -42,9 +42,19 @@ KMK firmware
 
 under construction...
 
-# design
+# design(Thanks to each tool and library author)
 
-##  using KiCAD library(thanks)
+## using layout designing
+
+Keyboard Layout Editor
+
+http://www.keyboard-layout-editor.com/
+
+Plate & Case Builder
+
+http://builder.swillkb.com/
+
+##  using KiCAD library
 
 KBD - for building keyboard libraries
 
@@ -57,5 +67,4 @@ https://github.com/e3w2q/su120-keyboard
 KiCad-RP-Pico
 
 https://github.com/ncarandini/KiCad-RP-Pico
-
 
