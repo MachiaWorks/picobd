@@ -32,6 +32,10 @@ PRK firmware
 
 https://github.com/picoruby/prk_firmware
 
+KMK firmware
+
+under construction...
+
 ## manufacturing PCB/Plates
 
 use "pcb.zip","plate.zip",and "bottom.zip" in "/gerber".
