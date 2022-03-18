@@ -6,6 +6,11 @@
 detail:
 
 https://machiaworx.net/?p=1359
+ 
+# Warning(important)
+
+If you place an order or build a keyboard using these sets of files, please use them at your own risk.
+Even if damage occurs during construction, the author will not take any responsibility. 
 
 ##  using KiCAD library(thanks)
 
@@ -21,8 +26,15 @@ KiCad-RP-Pico
 
 https://github.com/ncarandini/KiCad-RP-Pico
 
-## Production
+## using firmware(under construction.)
+
+PRK firmware
+
+https://github.com/picoruby/prk_firmware
+
+## Producting PCB/Plates
 
 use "pcb.zip","plate.zip",and "bottom.zip" in "/gerber".
 
+I use JLCPCB in production.
 
