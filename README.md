@@ -1,5 +1,5 @@
 # picobd
-40% keyboard using Raspberry Pi Pico.
+30% keyboard using Raspberry Pi Pico.
 
 ![FODHOGgUcAQcgBf](https://user-images.githubusercontent.com/3206839/159047379-3be846b2-a4b5-4de6-aaa6-0eb9a9ef6b80.jpg)
 
@@ -23,8 +23,8 @@ I usually order from JLCPCB in manufacturing.
 ## required parts
 
 * Raspberry Pi Pico
-* Keyswitch * 39
-* Keycap * 39
+* Keyswitch * 38
+* Keycap * 38
 * M2 8mm Screw * 10
 * M2 3mm Screw * 10
 * M2 3mm spacer * 10
