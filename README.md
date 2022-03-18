@@ -32,6 +32,10 @@ I usually order from JLCPCB in manufacturing.
 * gom ashi
 * USB micro cable
 
+## build guide
+
+under construction...
+
 ## using firmware(under construction.)
 
 PRK firmware
