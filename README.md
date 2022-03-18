@@ -32,9 +32,8 @@ PRK firmware
 
 https://github.com/picoruby/prk_firmware
 
-## Producting PCB/Plates
+## manufacturing PCB/Plates
 
 use "pcb.zip","plate.zip",and "bottom.zip" in "/gerber".
 
-I use JLCPCB in production.
-
+I usually use JLCPCB in manufacturing.
