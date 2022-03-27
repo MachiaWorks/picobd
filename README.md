@@ -43,7 +43,7 @@ PRK firmware
 
 https://github.com/picoruby/prk_firmware
 
-[layout]:http://www.keyboard-layout-editor.com/##@@=q&=w&=e&=r&=t&_x:0.5&c=%23eb8da9&w:1.25&h:3%3B&=raspi%20pico&_c=%23cccccc%3B&=y&=u&=i&=o&_w:1.25%3B&=p%3B&@_w:1.25%3B&=a&=s&=d&=f&=g&_x:1.75%3B&=h&=j&=k&=l&=shift%3B&@_w:1.5%3B&=z%2F%2Fshift&=x&=c&=v&=b&_x:1.75%3B&=n&=m&=up&_w:1.75%3B&=enter%3B&@_x:0.25&w:1.25%3B&=os&_w:1.25%3B&=alt&_w:1.25%3B&=ctrl&_w:1.75%3B&=spc&_w:1.75%3B&=spc&_w:1.25%3B&=ctrl&=left&=down&=right/
+http://www.keyboard-layout-editor.com/##@@=q&=w&=e&=r&=t&_x:0.5&c=%23eb8da9&w:1.25&h:3%3B&=raspi%20pico&_c=%23cccccc%3B&=y&=u&=i&=o&_w:1.25%3B&=p%3B&@_w:1.25%3B&=a&=s&=d&=f&=g&_x:1.75%3B&=h&=j&=k&=l&=shift%3B&@_w:1.5%3B&=z%2F%2Fshift&=x&=c&=v&=b&_x:1.75%3B&=n&=m&=up&_w:1.75%3B&=enter%3B&@_x:0.25&w:1.25%3B&=os&_w:1.25%3B&=alt&_w:1.25%3B&=ctrl&_w:1.75%3B&=spc&_w:1.75%3B&=spc&_w:1.25%3B&=ctrl&=left&=down&=right/
 
 KMK firmware
 
