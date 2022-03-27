@@ -31,7 +31,7 @@ kbd.init_matrix_pins(
 
 # default layer should be added at first
 kbd.add_layer :default, %i(
-  Q_GUI    KC_W   KC_E  KC_R   KC_T           KC_Y  KC_U   KC_I   KC_O   KC_P  
+  Q_GUI    KC_W   KC_E  KC_R   KC_T           KC_Y  KC_U   KC_I   KC_O   P_RSFT  
   KC_A    KC_S   KC_D  KC_F   KC_G           KC_H  KC_J   KC_K   KC_L   KC_BSPC  
   Z_LSFT    KC_X   KC_C  KC_V   KC_B           KC_N  KC_M   KC_UP   KC_ENTER   KC_NO  
   KC_ESC  KC_LALT  KC_LCTL  SPC_RAISE  SPC_LOWER     KC_RCTL  KC_LEFT   KC_DOWN   KC_RIGHT   KC_NO 
@@ -39,15 +39,15 @@ kbd.add_layer :default, %i(
 
 kbd.add_layer :raise, %i(
   KC_1      KC_2   KC_3   KC_4   KC_5               KC_6  KC_7   KC_8   KC_9   KC_0  
-  KC_A      KC_S   KC_D   KC_SCOLON   KC_QUOT     KC_H  KC_RBRC   KC_BSLS   KC_MINUS   KC_DEL 
-  Z_LSFT      KC_X   KC_INT1   KC_BBLS   KC_SLSH          KC_COMM  KC_DOT   KC_PGUP   KC_ENTER   KC_NO 
+  KC_A      KC_S   KC_BBLS   KC_SCOLON   KC_QUOT     KC_H  KC_RBRC   KC_BSLS   KC_MINUS   KC_DEL 
+  Z_LSFT      RAISE_X   KC_INT1   KC_BBLS   KC_SLSH          KC_COMM  KC_DOT   KC_PGUP   KC_ENTER   KC_NO 
   KC_TAB     KC_LALT   KC_LCTL   KC_NO   KC_INT5         KC_RCTL  KC_HOME   KC_PGDN   KC_END   KC_NO
 )
 
 kbd.add_layer :lower, %i(
   KC_F1      KC_F2   KC_F3   KC_F4 KC_F5          KC_F6   KC_F7   KC_F8 KC_F9 KC_F10      
-  KC_GRAVE   KC_F11   KC_F12   KC_F   KC_G         KC_H  KC_RBRC   KC_BSLS   KC_MINUS   KC_DEL  
-  Z_LSFT      KC_X   KC_INT1  KC_BBLS   KC_SLSH     KC_COMM  KC_DOT   KC_PGUP   KC_ENTER   KC_NO  
+  KC_GRAVE   KC_F11   KC_F12   KC_F   KC_QUOT         KC_H  KC_RBRC   KC_BSLS   KC_MINUS   KC_DEL  
+  RAISE_Z      RAISE_X   RAISE_C  RAISE_V   KC_SLSH     KC_COMM  KC_DOT   KC_PGUP   KC_ENTER   KC_NO  
   KC_TAB      KC_LALT   KC_LCTL   KC_INT4   KC_NO      KC_RCTL  KC_HOME   KC_PGDN   KC_END   KC_NO
 )
 
@@ -58,11 +58,19 @@ kbd.add_layer :lower, %i(
 #                                  or Proc                             or Proc which will run      to consider as   to consider as
 #                                  when you click                      while you keep press        `click the key`  `hold the key`
 kbd.define_mode_key :Z_LSFT,    [ :KC_Z,                               :KC_LSFT,                   150,             150 ]
+kbd.define_mode_key :P_RSFT,    [ :KC_P,                               :KC_RSFT,                   150,             150 ]
+
 kbd.define_mode_key :Q_GUI, [ :KC_Q, :KC_LGUI, 150, 150]
 
 kbd.define_mode_key :SPC_RAISE, [ :KC_SPACE,                           :raise,                     150,             150 ]
 kbd.define_mode_key :SPC_LOWER, [ :KC_SPACE,                           :lower,                     150,             150 ]
 
+
+
+kbd.define_composite_key :RAISE_Z, %i(KC_Z KC_LCTL)
+kbd.define_composite_key :RAISE_X, %i(KC_X KC_LCTL)
+kbd.define_composite_key :RAISE_C, %i(KC_C KC_LCTL)
+kbd.define_composite_key :RAISE_V, %i(KC_V KC_LCTL)
 
 kbd.start!
 
